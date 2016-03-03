@@ -13,6 +13,10 @@
 		84EC9E0F1C87DBF800146301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EC9E0D1C87DBF800146301 /* Main.storyboard */; };
 		84EC9E111C87DBF800146301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EC9E101C87DBF800146301 /* Assets.xcassets */; };
 		84EC9E141C87DBF800146301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EC9E121C87DBF800146301 /* LaunchScreen.storyboard */; };
+		84EC9E221C87DCCF00146301 /* CustomKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC9E1D1C87DCCF00146301 /* CustomKeyboard.m */; };
+		84EC9E231C87DCCF00146301 /* sym_keyboard_left@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 84EC9E1E1C87DCCF00146301 /* sym_keyboard_left@2x.PNG */; };
+		84EC9E241C87DCCF00146301 /* sym_keyboard_right@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 84EC9E1F1C87DCCF00146301 /* sym_keyboard_right@2x.PNG */; };
+		84EC9E251C87DCCF00146301 /* UITextField+ExtentRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC9E211C87DCCF00146301 /* UITextField+ExtentRange.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,12 @@
 		84EC9E101C87DBF800146301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84EC9E131C87DBF800146301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84EC9E151C87DBF800146301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EC9E1C1C87DCCF00146301 /* CustomKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomKeyboard.h; sourceTree = "<group>"; };
+		84EC9E1D1C87DCCF00146301 /* CustomKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomKeyboard.m; sourceTree = "<group>"; };
+		84EC9E1E1C87DCCF00146301 /* sym_keyboard_left@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sym_keyboard_left@2x.PNG"; sourceTree = "<group>"; };
+		84EC9E1F1C87DCCF00146301 /* sym_keyboard_right@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sym_keyboard_right@2x.PNG"; sourceTree = "<group>"; };
+		84EC9E201C87DCCF00146301 /* UITextField+ExtentRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ExtentRange.h"; sourceTree = "<group>"; };
+		84EC9E211C87DCCF00146301 /* UITextField+ExtentRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ExtentRange.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 		84EC9E031C87DBF800146301 /* CustomeKeyBoard */ = {
 			isa = PBXGroup;
 			children = (
+				84EC9E1B1C87DCCF00146301 /* CustomKeyBoard */,
 				84EC9E071C87DBF800146301 /* AppDelegate.h */,
 				84EC9E081C87DBF800146301 /* AppDelegate.m */,
 				84EC9E0A1C87DBF800146301 /* ViewController.h */,
@@ -77,6 +88,19 @@
 				84EC9E051C87DBF800146301 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84EC9E1B1C87DCCF00146301 /* CustomKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				84EC9E1C1C87DCCF00146301 /* CustomKeyboard.h */,
+				84EC9E1D1C87DCCF00146301 /* CustomKeyboard.m */,
+				84EC9E1E1C87DCCF00146301 /* sym_keyboard_left@2x.PNG */,
+				84EC9E1F1C87DCCF00146301 /* sym_keyboard_right@2x.PNG */,
+				84EC9E201C87DCCF00146301 /* UITextField+ExtentRange.h */,
+				84EC9E211C87DCCF00146301 /* UITextField+ExtentRange.m */,
+			);
+			path = CustomKeyBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +160,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EC9E231C87DCCF00146301 /* sym_keyboard_left@2x.PNG in Resources */,
 				84EC9E141C87DBF800146301 /* LaunchScreen.storyboard in Resources */,
 				84EC9E111C87DBF800146301 /* Assets.xcassets in Resources */,
+				84EC9E241C87DCCF00146301 /* sym_keyboard_right@2x.PNG in Resources */,
 				84EC9E0F1C87DBF800146301 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,9 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EC9E251C87DCCF00146301 /* UITextField+ExtentRange.m in Sources */,
 				84EC9E0C1C87DBF800146301 /* ViewController.m in Sources */,
 				84EC9E091C87DBF800146301 /* AppDelegate.m in Sources */,
 				84EC9E061C87DBF800146301 /* main.m in Sources */,
+				84EC9E221C87DCCF00146301 /* CustomKeyboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
