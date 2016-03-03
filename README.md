@@ -56,6 +56,8 @@ _inputField.text = textFile;
 }
 }
 ```
- ![image](https://github.com/769839948/CustomKeyBoard/blob/master/CustomeKeyBoard/screenshots/vim-screenshot.jpg)
+ ![image](https://github.com/769839948/CustomKeyBoard/blob/master/CustomeKeyBoard/screenshots/vim-screenshot.png)
+<br>
  ![image](https://github.com/769839948/CustomKeyBoard/blob/master/CustomeKeyBoard/screenshots/vim_1.gif)
- ![image](https://github.com/769839948/CustomKeyBoard/blob/master/CustomeKeyBoard/screenshots/vim_1.gif)
+<br>
+ ![image](https://github.com/769839948/CustomKeyBoard/blob/master/CustomeKeyBoard/screenshots/vim_2.gif)
